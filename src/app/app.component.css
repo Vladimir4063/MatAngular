@@ -9,6 +9,18 @@ header{
     color: seashell;
 }
 
+h1 {
+  text-transform: uppercase;
+  margin-left: 20px;
+  font-weight: bold;
+  color: #fff;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
 .title{
     font-family: "Oswald", sans-serif;
     font-size: 2rem;
@@ -19,11 +31,11 @@ header{
     grid-gap: 2px;
 }
 
-.grid-4 {
+/* .grid-4 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2px;
-}
+} */
 
 .text-left {
     text-align: left;
@@ -40,4 +52,84 @@ header{
 .text {
   line-height: 1.7;
   margin-top: 1rem;
+}
+
+.servicios { /* COLUMNA DE 3*/
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+h2, h3{ /* CAMBIOS GENERALES A LOS H*/
+  text-transform: uppercase;
+  color: #444;
+  letter-spacing: 1px;
+  font-family: Lato, sans-serif;
+}
+
+h2 {
+  margin-top: 35px;
+  font-size: 30px;
+
+}
+h3 {
+  margin-top: 10px;
+  font-size: 16px;
+
+}
+
+p {
+  color: #888;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+}
+
+.servicios h3 {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.columna3 {
+  width: 33.3%;
+  float: left;
+}
+
+.incluye { /*Div contenedor de 4 columnas*/
+  width: 100%;
+  margin: auto;
+}
+
+.columnas4 { /*Acomodamos las columnas por el lado izquierdo*/
+  width: 25%;
+  float: left;
+}
+
+.banner-1 {
+  width: 100%;
+  background: rgb(36,0,30);
+  background: linear-gradient(90deg, rgba(36,0,30,1) 3%, rgba(121,9,41,1) 95%);
+  /* clear:both; */
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  transition: 1s;
+}
+
+.banner-1:hover {
+  background: #444;
+  transition: 1s;
+}
+
+.banner-1 h3 {
+  color: aliceblue;
+  font-size: 32px;
+}
+
+.banner-1 a{
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  color: #fff;
+  border-bottom: 2px solid #fff;
 }
